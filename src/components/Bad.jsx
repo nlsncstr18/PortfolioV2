@@ -15,7 +15,7 @@ function Bad({ handleBadState }) {
           onMouseEnter={() => hoverBad(true)}
           onMouseLeave={() => hoverBad(false)}
           onClick={() => {
-            window.location.href = "/PortfolioV2/skills";
+            window.location.href = "/skills";
           }}
         >
           <span className="skills">SKILLS</span>

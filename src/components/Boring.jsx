@@ -16,7 +16,7 @@ function Boring({ handleBoringState }) {
           onMouseEnter={() => hoverBoring(true)}
           onMouseLeave={() => hoverBoring(false)}
           onClick={() => {
-            window.location.href = "/PortfolioV2/projects";
+            window.location.href = "/projects";
           }}
           className="boring"
         >
