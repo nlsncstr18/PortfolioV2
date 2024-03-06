@@ -5,7 +5,6 @@ import Boring from "../../components/Boring";
 import Bad from "../../components/Bad";
 import For from "../../components/For";
 import Business from "../../components/Business";
-import { motion } from "framer-motion";
 
 function Home() {
   const [componentState, setComponentState] = useState({
