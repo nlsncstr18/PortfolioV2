@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0e0d0d;
-  background-image: url("./cat-back.png");
+  background-image: url("/cat-back.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
