@@ -12,10 +12,10 @@ function AnimatedRoutes() {
     <AnimatePresence>
       <Nav />
       <Routes location={location} key={location.pathname}>
-        <Route path="/PortfolioV2" element={<Home />} />
-        <Route path="/PortfolioV2/projects" element={<Projects />} />
-        <Route path="/PortfolioV2/about" element={<About />} />
-        <Route path="/PortfolioV2/skills" element={<Skills />} />
+        <Route index element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
     </AnimatePresence>
   );
