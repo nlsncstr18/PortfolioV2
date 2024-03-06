@@ -38,7 +38,7 @@ function About() {
   };
   const downloadResume = () => {
     // Construct the URL to your resume file
-    const resumeUrl = "/Castro_Nelson_Resume.pdf";
+    const resumeUrl = "/PortfolioV2/Castro_Nelson_Resume.pdf";
 
     // Create a link element
     const link = document.createElement("a");
