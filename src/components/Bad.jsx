@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../pages/Home/Home.css";
+import { Link } from "react-router-dom";
 function Bad({ handleBadState }) {
   const [isBad, setIsBad] = useState(false);
 
@@ -10,15 +11,15 @@ function Bad({ handleBadState }) {
   return (
     <>
       {isBad ? (
-        <a href="/PortfolioV2/skills">
-          <h1
-            className="bad"
-            onMouseEnter={() => hoverBad(true)}
-            onMouseLeave={() => hoverBad(false)}
-          >
-            <span className="skills">SKILLS</span>
-          </h1>
-        </a>
+        <h1
+          className="bad"
+          onMouseEnter={() => hoverBad(true)}
+          onMouseLeave={() => hoverBad(false)}
+        >
+          <Link to={"/PortfolioV2/Skills"} className="skills">
+            SKILLS
+          </Link>
+        </h1>
       ) : (
         <h1
           className="bad"

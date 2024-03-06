@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../pages/Home/Home.css";
+import { Link } from "react-router-dom";
 function For({ handleForState }) {
   const [isFor, setIsFor] = useState(false);
   const hoverFor = (isHovering) => {
@@ -13,12 +14,11 @@ function For({ handleForState }) {
         <h1
           onMouseEnter={() => hoverFor(true)}
           onMouseLeave={() => hoverFor(false)}
-          onClick={() => {
-            window.location.href = "/About";
-          }}
           className="for"
         >
-          <span className="about">ABOUT ME </span>
+          <Link to={"/PortfolioV2/About"} className="about">
+            ABOUT ME
+          </Link>
         </h1>
       ) : (
         <h1

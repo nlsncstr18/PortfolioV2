@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../pages/Home/Home.css";
-
+import { Link } from "react-router-dom";
 function Boring({ handleBoringState }) {
   const [isBoring, setIsBoring] = useState(false);
 
@@ -15,12 +15,11 @@ function Boring({ handleBoringState }) {
         <h1
           onMouseEnter={() => hoverBoring(true)}
           onMouseLeave={() => hoverBoring(false)}
-          onClick={() => {
-            window.location.href = "/projects";
-          }}
           className="boring"
         >
-          <span className="proj">PROJECTS </span>
+          <Link to={"/PortfolioV2/Projects"} className="proj">
+            PROJECTS
+          </Link>
         </h1>
       ) : (
         <h1
