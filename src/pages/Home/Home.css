@@ -1,0 +1,143 @@
+.container {
+  color: white;
+}
+
+.navName {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  position: fixed;
+  position: relative;
+}
+
+.quote {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  font-size: 2.5em;
+  color: #757575;
+}
+
+.rightQ {
+  text-align: right;
+  border-right: 1px solid rgb(172, 168, 168);
+  padding-right: 10px;
+}
+
+.rightQdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  display: inline-block;
+}
+
+.rightQ h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.leftQ {
+  text-align: left;
+  border-left: 1px solid rgb(172, 168, 168);
+  padding-left: 10px;
+}
+
+.leftQdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  display: inline-block;
+}
+
+.leftQ h1 {
+  margin: 0;
+}
+
+/* Hover effect */
+.proj,
+.skills {
+  display: inline-block;
+  animation: fade-in-right 1s ease-in-out;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.about,
+.contact {
+  display: inline-block;
+  animation: fade-in-left 1s ease-in-out;
+  animation-fill-mode: backwards;
+  cursor: pointer;
+}
+
+@keyframes fade-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* Hover effect */
+.proj:hover,
+.skills:hover,
+.about:hover,
+.contact:hover {
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.black {
+  color: #0e0d0d !important;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .quote {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+    margin-top: 10%;
+  }
+  .leftQ {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .quote {
+    width: 90%; /* Adjust width for smaller screens */
+    height: 90%; /* Adjust height for smaller screens */
+    margin-top: 30%;
+    margin-right: 20%;
+
+    font-size: 1em;
+  }
+  .leftQ {
+    margin-top: 50px;
+  }
+  .leftQ h1 {
+    text-decoration: underline;
+  }
+  .rightQ h1 {
+    text-decoration: underline;
+  }
+}
