@@ -14,7 +14,7 @@ function For({ handleForState }) {
           onMouseEnter={() => hoverFor(true)}
           onMouseLeave={() => hoverFor(false)}
           onClick={() => {
-            window.location.href = "/About";
+            window.location.href = "/PortfolioV2/About";
           }}
           className="for"
         >
