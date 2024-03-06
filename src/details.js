@@ -49,12 +49,12 @@ export const projects = [
     link: "https://nlsncstr18.github.io/TransConnect",
 
     imgs: [
-      "PortfolioV2/html.png",
-      "PortfolioV2/css.png",
-      "PortfolioV2/javascript.png",
-      "PortfolioV2/react.png",
-      "PortfolioV2/nodejs.png",
-      "PortfolioV2/mongodb.png",
+      "/PortfolioV2/html.png",
+      "/PortfolioV2/css.png",
+      "/PortfolioV2/javascript.png",
+      "/PortfolioV2/react.png",
+      "/PortfolioV2/nodejs.png",
+      "/PortfolioV2/mongodb.png",
     ],
   },
   {
@@ -65,11 +65,11 @@ export const projects = [
     link: "https://github.com/nlsncstr18/Road-To-Full-Stack/tree/laravel",
 
     imgs: [
-      " PortfolioV2/html.png",
-      " PortfolioV2/css.png",
-      " PortfolioV2/php.png",
-      " PortfolioV2/laravel.png",
-      " PortfolioV2/mysql.png",
+      " /PortfolioV2/html.png",
+      "/PortfolioV2/css.png",
+      " /PortfolioV2/php.png",
+      " /PortfolioV2/laravel.png",
+      " /PortfolioV2/mysql.png",
     ],
   },
   {
@@ -80,12 +80,12 @@ export const projects = [
     link: "https://shower-thoughts-app.onrender.com",
 
     imgs: [
-      "PortfolioV2/html.png",
-      "PortfolioV2/css.png",
-      "PortfolioV2/javascript.png",
-      "PortfolioV2/react.png",
-      "PortfolioV2/nodejs.png",
-      "PortfolioV2/mongodb.png",
+      "/PortfolioV2/html.png",
+      "/PortfolioV2/css.png",
+      "/PortfolioV2/javascript.png",
+      "/PortfolioV2/react.png",
+      "/PortfolioV2/nodejs.png",
+      "/PortfolioV2/mongodb.png",
     ],
   },
   {
@@ -96,12 +96,12 @@ export const projects = [
     link: "https://nlsncstr18.github.io/Gaming-Warfare",
 
     imgs: [
-      "PortfolioV2/html.png",
-      "PortfolioV2/css.png",
-      "PortfolioV2/javascript.png",
-      "PortfolioV2/react.png",
-      "PortfolioV2/nodejs.png",
-      "PortfolioV2/mongodb.png",
+      "/PortfolioV2/html.png",
+      "/PortfolioV2/css.png",
+      "/PortfolioV2/javascript.png",
+      "/PortfolioV2/react.png",
+      "/PortfolioV2/nodejs.png",
+      "/PortfolioV2/mongodb.png",
     ],
   },
   {
@@ -109,12 +109,12 @@ export const projects = [
     title: "Previous Portfolio",
     description: "My previous portfolio that showcases my projects and skills",
     link: "https://nlsncstr18.github.io/Portfolio/",
-    tech: "HTML, CSS, Vanilla JavaScript,",
+
     imgs: [
-      "PortfolioV2/html.png",
-      "PortfolioV2/css.png",
-      "PortfolioV2/javascript.png",
-      "PortfolioV2/react.png",
+      "/PortfolioV2/html.png",
+      "/PortfolioV2/css.png",
+      "/PortfolioV2/javascript.png",
+      "/PortfolioV2/react.png",
     ],
   },
 ];
