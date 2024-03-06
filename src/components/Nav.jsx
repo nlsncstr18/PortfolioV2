@@ -6,7 +6,7 @@ function Nav() {
       <div
         className="navName"
         onClick={() => {
-          window.location.href = "/";
+          window.location.href = "/PortfolioV2";
         }}
       >
         <div style={{ cursor: "pointer" }}>
